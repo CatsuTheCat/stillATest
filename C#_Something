@@ -1,0 +1,37 @@
+using System;
+
+class Hello
+{
+    static void Main()
+    {
+        // How many people tere are in my class
+        int peopleInClass = 27;
+        
+        // Number of bois
+        int boisInClass = 16;
+        
+        // Nubmer of gurls
+        int gurlsInClass = peopleInClass-boisInClass;
+        
+        // Les now say how many people in my class have green eyes
+        int greenEyers = 12;
+        
+        // How many bois have green eyes
+        int greenEyerBois = 4;
+        
+        // How many gurls have green eyes
+        int greenEyerGurls = greenEyers-greenEyerBois;
+        
+        // How many people would be able to kill each other
+        int killers = peopleInClass/2;
+        
+        // Now print it
+        Console.WriteLine(peopleInClass);
+        Console.WriteLine(boisInClass);
+        Console.WriteLine(gurlsInClass);
+        Console.WriteLine(greenEyers);
+        Console.WriteLine(greenEyerBois);
+        Console.WriteLine(greenEyerGurls);
+        Console.WriteLine(killers);
+    }
+}
